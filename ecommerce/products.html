@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | ShopEasy</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+
+    <div class="logo">
+        <a href="index.html">
+            <h2>ShopEasy</h2>
+        </a>
+    </div>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="products.html" class="active">Products</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+            <li>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                    <span id="cart-count">0</span>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Banner -->
+<section class="page-banner">
+
+    <h1>Our Products</h1>
+
+    <p>Browse our latest collections.</p>
+
+</section>
+
+<!-- Search -->
+<section class="search-section">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search products..."
+    >
+
+</section>
+
+<!-- Category Filters -->
+<section class="filters">
+
+    <button class="filter-btn active" data-category="all">All</button>
+
+    <button class="filter-btn" data-category="electronics">Electronics</button>
+
+    <button class="filter-btn" data-category="fashion">Fashion</button>
+
+    <button class="filter-btn" data-category="shoes">Shoes</button>
+
+    <button class="filter-btn" data-category="accessories">Accessories</button>
+
+</section>
+
+<!-- Products -->
+<section class="products-section">
+
+    <div id="products-container" class="product-grid">
+
+        <!-- Products Loaded by JavaScript -->
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+    <div class="footer-content">
+
+        <h3>ShopEasy</h3>
+
+        <p>Your trusted online shopping destination.</p>
+
+        <div class="social-icons">
+
+            <i class="fab fa-facebook"></i>
+
+            <i class="fab fa-instagram"></i>
+
+            <i class="fab fa-twitter"></i>
+
+            <i class="fab fa-linkedin"></i>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+
+        © 2026 ShopEasy. All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<script src="js/storage.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/products.js"></script>
+
+</body>
+</html>
