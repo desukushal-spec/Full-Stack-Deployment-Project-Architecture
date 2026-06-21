@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Gaming Laptop",
+    "category": "electronics",
+    "price": 79999,
+    "image": "assets/images/laptop.jpg",
+    "description": "Powerful gaming laptop with Intel Core i7, 16GB RAM and RTX graphics.",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "category": "electronics",
+    "price": 45999,
+    "image": "assets/images/phone.jpg",
+    "description": "Latest 5G smartphone featuring a 120Hz AMOLED display and 108MP camera.",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Wireless Headphones",
+    "category": "electronics",
+    "price": 6999,
+    "image": "assets/images/headphones.jpg",
+    "description": "Noise-cancelling Bluetooth headphones with up to 30 hours of battery life.",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "category": "electronics",
+    "price": 12999,
+    "image": "assets/images/watch.jpg",
+    "description": "Fitness tracking smartwatch with heart-rate monitoring and GPS.",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Running Shoes",
+    "category": "shoes",
+    "price": 3999,
+    "image": "assets/images/shoes.jpg",
+    "description": "Comfortable lightweight running shoes designed for everyday training.",
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "name": "Men's T-Shirt",
+    "category": "fashion",
+    "price": 999,
+    "image": "assets/images/tshirt.jpg",
+    "description": "Premium cotton T-shirt with a modern fit and soft fabric.",
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "name": "Leather Backpack",
+    "category": "accessories",
+    "price": 2999,
+    "image": "assets/images/backpack.jpg",
+    "description": "Stylish backpack suitable for office, college and travel.",
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "name": "DSLR Camera",
+    "category": "electronics",
+    "price": 55999,
+    "image": "assets/images/camera.jpg",
+    "description": "Professional DSLR camera with 24MP sensor and 4K video recording.",
+    "rating": 4.8
+  },
+  {
+    "id": 9,
+    "name": "Bluetooth Speaker",
+    "category": "electronics",
+    "price": 2499,
+    "image": "assets/images/speaker.jpg",
+    "description": "Portable waterproof Bluetooth speaker with deep bass.",
+    "rating": 4.4
+  },
+  {
+    "id": 10,
+    "name": "Wireless Mouse",
+    "category": "electronics",
+    "price": 1499,
+    "image": "assets/images/mouse.jpg",
+    "description": "Ergonomic wireless mouse with adjustable DPI settings.",
+    "rating": 4.3
+  },
+  {
+    "id": 11,
+    "name": "Mechanical Keyboard",
+    "category": "electronics",
+    "price": 3499,
+    "image": "assets/images/keyboard.jpg",
+    "description": "RGB mechanical keyboard with blue switches for gaming and typing.",
+    "rating": 4.7
+  },
+  {
+    "id": 12,
+    "name": "Women's Handbag",
+    "category": "fashion",
+    "price": 2799,
+    "image": "assets/images/handbag.jpg",
+    "description": "Elegant handbag with premium leather finish and spacious compartments.",
+    "rating": 4.6
+  }
+]
