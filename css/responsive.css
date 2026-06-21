@@ -1,0 +1,220 @@
+/* ==========================================
+   TABLETS (992px)
+========================================== */
+
+@media (max-width: 992px) {
+
+    .header {
+        padding: 18px 5%;
+    }
+
+    section {
+        padding: 50px 5%;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .product-details {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .cart-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
+
+    .about-features {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+/* ==========================================
+   MOBILE DEVICES (768px)
+========================================== */
+
+@media (max-width:768px){
+
+    .header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .hero{
+        min-height:70vh;
+    }
+
+    .hero-content h1{
+        font-size:36px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .page-banner h1{
+        font-size:34px;
+    }
+
+    .filters{
+        justify-content:center;
+    }
+
+    .product-grid{
+        grid-template-columns:1fr;
+    }
+
+    .product-details{
+        padding:40px 5%;
+    }
+
+    .product-details .product-image img{
+        height:350px;
+    }
+
+    .cart-item{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .cart-item img{
+        width:180px;
+        height:180px;
+    }
+
+    .quantity{
+        justify-content:center;
+    }
+
+    .about-features{
+        grid-template-columns:1fr;
+    }
+
+    .services{
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* ==========================================
+   SMALL MOBILE (576px)
+========================================== */
+
+@media (max-width:576px){
+
+    .logo h2{
+        font-size:24px;
+    }
+
+    .hero-content h1{
+        font-size:30px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+    }
+
+    .product-buttons{
+        flex-direction:column;
+    }
+
+    .page-banner{
+        padding:50px 15px;
+    }
+
+    .page-banner h1{
+        font-size:28px;
+    }
+
+    .page-banner p{
+        font-size:15px;
+    }
+
+    .contact-form,
+    .contact-info,
+    .cart-summary,
+    .cart-items{
+        padding:20px;
+    }
+
+    .summary-item,
+    .summary-total{
+        font-size:15px;
+    }
+
+    footer{
+        padding:40px 20px;
+    }
+
+    .social-icons i{
+        width:40px;
+        height:40px;
+        line-height:40px;
+    }
+
+}
+
+/* ==========================================
+   EXTRA SMALL DEVICES (400px)
+========================================== */
+
+@media (max-width:400px){
+
+    .hero-content h1{
+        font-size:26px;
+    }
+
+    .hero-content p{
+        font-size:14px;
+    }
+
+    .logo h2{
+        font-size:22px;
+    }
+
+    .nav-links{
+        gap:10px;
+    }
+
+    .nav-links a{
+        font-size:14px;
+    }
+
+    #searchInput{
+        font-size:14px;
+    }
+
+    .product-info h3{
+        font-size:18px;
+    }
+
+    .product-price{
+        font-size:20px;
+    }
+
+}
