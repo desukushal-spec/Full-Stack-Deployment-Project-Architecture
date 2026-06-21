@@ -1,0 +1,243 @@
+/* ===================================
+   GOOGLE FONT
+=================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===================================
+   CSS VARIABLES
+=================================== */
+
+:root {
+
+    /* Colors */
+    --primary-color: #2563eb;
+    --primary-dark: #1d4ed8;
+    --secondary-color: #f97316;
+    --secondary-dark: #ea580c;
+
+    --success-color: #22c55e;
+    --danger-color: #ef4444;
+    --warning-color: #eab308;
+
+    --white: #ffffff;
+    --light: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0;
+    --gray-300: #cbd5e1;
+    --gray-500: #64748b;
+    --gray-700: #334155;
+    --dark: #1e293b;
+    --black: #0f172a;
+
+    /* Typography */
+    --font-family: "Poppins", sans-serif;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 22px;
+    --font-size-2xl: 30px;
+    --font-size-3xl: 42px;
+
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* Border Radius */
+    --radius-sm: 5px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 25px;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-md: 0 6px 18px rgba(0,0,0,0.12);
+    --shadow-lg: 0 12px 25px rgba(0,0,0,0.18);
+
+    /* Transition */
+    --transition: all .3s ease;
+
+    /* Container */
+    --container-width: 1200px;
+
+    /* Spacing */
+    --section-padding: 80px;
+    --card-padding: 20px;
+}
+
+/* ===================================
+   RESET
+=================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:var(--font-family);
+
+    background:var(--light);
+
+    color:var(--dark);
+
+    line-height:1.6;
+}
+
+/* ===================================
+   GLOBAL
+=================================== */
+
+img{
+
+    width:100%;
+
+    display:block;
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+}
+
+ul{
+
+    list-style:none;
+}
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    outline:none;
+
+    font-family:inherit;
+}
+
+input,
+textarea,
+select{
+
+    font-family:inherit;
+
+    outline:none;
+}
+
+.container{
+
+    width:90%;
+
+    max-width:var(--container-width);
+
+    margin:auto;
+}
+
+.section{
+
+    padding:var(--section-padding) 0;
+}
+
+/* ===================================
+   BUTTONS
+=================================== */
+
+.btn{
+
+    display:inline-block;
+
+    padding:12px 28px;
+
+    background:var(--primary-color);
+
+    color:var(--white);
+
+    border-radius:var(--radius-md);
+
+    transition:var(--transition);
+
+    font-weight:600;
+}
+
+.btn:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-3px);
+}
+
+.secondary-btn{
+
+    background:var(--danger-color);
+}
+
+.secondary-btn:hover{
+
+    background:#dc2626;
+}
+
+/* ===================================
+   HEADINGS
+=================================== */
+
+h1{
+
+    font-size:var(--font-size-3xl);
+}
+
+h2{
+
+    font-size:var(--font-size-2xl);
+}
+
+h3{
+
+    font-size:var(--font-size-xl);
+}
+
+p{
+
+    color:var(--gray-700);
+}
+
+/* ===================================
+   PAGE BANNER
+=================================== */
+
+.page-banner{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+
+    color:var(--white);
+
+    text-align:center;
+
+    padding:70px 20px;
+}
+
+.page-banner h1{
+
+    margin-bottom:10px;
+}
+
+.page-banner p{
+
+    color:var(--white);
+}
